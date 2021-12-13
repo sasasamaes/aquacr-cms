@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "homepage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "section1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.section1"
+    },
+    "section2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.section2"
+    },
+    "maps": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.maps"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.form"
+    },
+    "masterPlan": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.master-plan"
+    }
+  }
+}

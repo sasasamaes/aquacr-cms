@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_page_forms",
+  "info": {
+    "name": "form",
+    "icon": "remove-format"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "price": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "text"
+    },
+    "caption2": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string"
+    }
+  }
+}

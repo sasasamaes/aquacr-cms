@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_page_master_plans",
+  "info": {
+    "name": "masterPlan",
+    "icon": "bookmark"
+  },
+  "options": {},
+  "attributes": {
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "text"
+    }
+  }
+}
