@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "models",
+  "collectionName": "partners",
   "info": {
-    "name": "model",
-    "description": ""
+    "name": "partners"
   },
   "options": {
     "increments": true,
@@ -15,13 +14,7 @@
     "title": {
       "type": "string"
     },
-    "price": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
-    "architecturalPlan": {
+    "logo": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -31,14 +24,24 @@
       "required": false,
       "pluginOptions": {}
     },
-    "btnText": {
+    "description": {
+      "type": "text"
+    },
+    "url": {
       "type": "string"
     },
-    "hotpointRoundme": {
-      "type": "string"
+    "extraText": {
+      "type": "richtext"
     },
-    "userRoundme": {
-      "type": "string"
+    "slider": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

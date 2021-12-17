@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_page_banners",
+  "info": {
+    "name": "banner",
+    "icon": "bacon"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

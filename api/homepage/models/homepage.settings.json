@@ -36,6 +36,11 @@
       "type": "component",
       "repeatable": false,
       "component": "home-page.master-plan"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.banner"
     }
   }
 }
